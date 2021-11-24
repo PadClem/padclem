@@ -1,0 +1,170 @@
+/*navigation bar*/
+*{
+	padding:0;
+	margin:0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+nav{
+	background: black;
+	height: 80px;
+	width: 100%;
+}
+
+nav ul{
+	float: right;
+	margin-right:20px;
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin 0 5px;
+}
+
+nav ul li a{
+	color: white;
+	fint-size: 17px;
+}
+
+.toggle-button{
+	position: absolute;
+}
+
+/*Main*/
+.Main{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.Intro{
+	width: 100%;
+	height: 185vh;
+	background-image: url(images/map.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.title{
+	font:#ffffff;
+	font-family: sans-serif;
+	position: absolute;
+	top: 100%;
+	left: 8%;
+	transform: translateY(-50%);
+	z-index:2;
+}
+			
+button{
+	color: black;
+	font-family:sans-serif;
+	font-size:20px;
+	padding: 10px 25px;
+	border-color: #ffffff;
+	background: transparent;
+	border: 5px black;
+	border-radius: 20px;
+	outline:  none;
+	cursor: pointer;
+}
+/*About myself*/
+.AboutCover{
+	width: 100%;
+	height: 100vh;
+	background-image: url(images/back.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+}
+
+.AboutText{
+	position: absolute;
+	top: 50%;
+	left: 8%;
+	transform: translateY(-50%);
+	z-index:2;
+}
+/*Gallery*/
+.slidergallery{
+	width: 4928px;
+	height: 3264px;
+	bakcground: url(1.jpg);
+	margin: 100px auto;
+	animation: slide 20s infinite;
+}
+@keyframes slide{
+	25%{
+		background: url(images/2.jpg);
+	}
+	50%{
+		background: url(images/3.jpg);
+	}
+	75%{
+		background: url(images/4.png);
+	}
+	100%{
+		background: url(images/1.jpg);
+	}
+}
+
+/*Hobby*/
+.Hobby{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.HobbyCover{
+	width: 100%;
+	height: 185vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	overflow: hidden;
+}
+/*Games*/
+.Game{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.GameCover{
+	width: 100%;
+	height: 185vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	overflow: hidden;
+}
+/*Anime*/
+.Anime{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.AnimeCover{
+	width: 100%;
+	height: 185vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	overflow: hidden;
